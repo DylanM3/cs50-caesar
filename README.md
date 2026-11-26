@@ -1,6 +1,5 @@
 # CS50 Caesar
-A command-line encryption program written in the C programming language that uses the caesar cipher.\
-Developed as apart of the curriculum for [Harvard University's CS50X: Introduction to Computer Science](https://cs50.harvard.edu/x/2025/psets/2/caesar/)
+A command-line encryption program written in the C programming language that uses the Caesar cipher to encrypt text by shifting alphabetical characters according to a numerical key.
 
 ## Features:
 - Command-Line Arguments: Accepts an encryption key as a command-line argument when executing the program.
@@ -9,3 +8,7 @@ Developed as apart of the curriculum for [Harvard University's CS50X: Introducti
 - Case Preservation: Maintains the original uppercase and lowercase formatting of the plaintext.
 - Alphabet Wrapping: Automatically wraps characters around the alphabet when reaching the end (e.g. `Z` becomes `B` with a key of `2`).
 - Non-Alphabetical Characters: Preserves spaces, punctuation, and numbers without modification.
+
+#
+
+Developed as part of the curriculum for [Harvard University's CS50X: Introduction to Computer Science](https://cs50.harvard.edu/x/2025/psets/2/caesar/)
